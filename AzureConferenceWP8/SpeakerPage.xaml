@@ -1,0 +1,81 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="AzureConferenceWP8.SpeakerPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ig="clr-namespace:Infragistics.Controls.Grids;assembly=InfragisticsWP7.Controls.Grids.XamList.v12.2"
+    xmlns:azureConferenceWp8="clr-namespace:AzureConferenceWP8"
+    xmlns:viewModels="clr-namespace:AzureConferenceWP8.ViewModels"
+    xmlns:helper="clr-namespace:AzureConferenceLib.Helper;assembly=AzureConferenceLib"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <phone:PhoneApplicationPage.Resources>
+        <helper:CaseConverter x:Key="CaseConverter"/>
+        <viewModels:SpeakerViewModel x:Key="SpeakerViewModelDataSource" />
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent" DataContext="{Binding Source={StaticResource SpeakerViewModelDataSource}}">
+        <StackPanel>
+            <StackPanel Background="#0072BC">
+                <Image Source="/Assets\Header.png" Margin="10" Width="300" Height="50" HorizontalAlignment="Left" />
+            </StackPanel>
+            <phone:Panorama Title="" DataContext="{Binding}">
+                <!--Pivot item one-->
+                <phone:PanoramaItem Header="bio" >
+                    <ScrollViewer Margin="0,0,0,0">
+                    <azureConferenceWp8:SpeakerBioUserControl DataContext="{Binding Speaker}" Margin="12,0,0,0"/>
+                    </ScrollViewer>
+                </phone:PanoramaItem>
+
+                <phone:PanoramaItem>
+                    <phone:PanoramaItem.Header>
+                        <TextBlock Text="sessions" Margin="0,0,5,0"></TextBlock>
+                    </phone:PanoramaItem.Header>
+
+                    <ig:XamList IsSearchingEnabled="False" ItemsSource="{Binding Speaker.Sessions}" ItemClicked="SessionList_ItemClicked" >
+                        <ig:XamList.ItemsTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,0,0,17" >
+                                    <TextBlock Text="{Binding Title}" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}" />
+                                    <TextBlock Text="{Binding Begins, StringFormat=\{0:ddd d/M hh:mm tt\}}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSmallStyle}" >
+                                        <TextBlock.Foreground>
+                                            <SolidColorBrush Color="#0072BC"/>
+                                        </TextBlock.Foreground>
+                                    </TextBlock>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ig:XamList.ItemsTemplate>
+                    </ig:XamList>
+
+                </phone:PanoramaItem>
+
+                <!--<controls:PivotItem Header="twitter">
+                <Grid>
+                    <TextBlock x:Name="noTwitterTextBlock" Visibility="Collapsed" Style="{StaticResource PhoneTextTitle3Style}" Text="Speaker has not submitted a twitter handle" TextWrapping="Wrap" />
+                    <ListBox  x:Name="TwitterListBox" Margin="0" ItemsSource="{Binding Twitter}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,0,0,17"  Background="#AF000000"  Width="445">
+                                    <TextBlock TextWrapping="Wrap" Text="{Binding Text}" Margin="12,0,0,5" Style="{StaticResource PhoneTextTitle3Style}" />
+                                    <TextBlock Text="{Binding Date}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextAccentStyle}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>-->
+            </phone:Panorama>
+        </StackPanel>
+    </Grid>
+
+
+</phone:PhoneApplicationPage>

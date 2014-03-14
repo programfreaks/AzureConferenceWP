@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="AzureConferenceWP8.SpeakerBioUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:helper="clr-namespace:AzureConferenceLib.Helper;assembly=AzureConferenceLib"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="480" d:DesignWidth="480">
+
+    <UserControl.Resources>
+        <helper:StringVisibilityConverter x:Key="StringVisibilityConverter"/>
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.359*"/>
+                <RowDefinition Height="0.641*"/>
+            </Grid.RowDefinitions>
+            <Image Margin="4,6,0,6" Height="200" Width="160" Source="{Binding HeadshotUrl}" HorizontalAlignment="Left" d:LayoutOverrides="Width"/>
+            <StackPanel Margin="168,6,0,6" Height="200">
+                <TextBlock Grid.Column="1" Margin="12,0,0,0" TextWrapping="Wrap" Text="name" VerticalAlignment="Top">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="#1ba1e2"/>
+                    </TextBlock.Foreground>
+                </TextBlock>
+                <TextBlock Grid.Column="1" Margin="12,0,0,6" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top"/>
+                <TextBlock Grid.Column="1" Margin="12,0,0,0" TextWrapping="Wrap" Text="position" VerticalAlignment="Top" Visibility="{Binding Position, Converter={StaticResource StringVisibilityConverter}}">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="#1ba1e2"/>
+                    </TextBlock.Foreground>
+                </TextBlock>
+                <TextBlock Grid.Column="1" Margin="12,0,0,6" TextWrapping="Wrap" Text="{Binding TagLine}" VerticalAlignment="Top"/>
+                <!--<TextBlock Grid.Column="1" Margin="12,0,0,0" TextWrapping="Wrap" Text="twitter" VerticalAlignment="Top" FontFamily="Segoe WP Black" FontSize="24">
+					<TextBlock.Foreground>
+						<SolidColorBrush Color="#0072c6"/>
+					</TextBlock.Foreground>
+				</TextBlock>
+				<TextBlock Grid.Column="1" Margin="12,0,0,6" TextWrapping="Wrap" Text="{Binding Twitter}" VerticalAlignment="Top"/>-->
+            </StackPanel>
+
+
+            <TextBlock Grid.Column="0" Grid.Row="1"   TextWrapping="Wrap" Text="{Binding Bio}" VerticalAlignment="Top"/>
+
+
+        </Grid>
+    </Grid>
+</UserControl>

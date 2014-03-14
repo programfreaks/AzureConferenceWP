@@ -1,0 +1,59 @@
+﻿[
+  {
+    "id": 0,
+    "title": "Keynote 1",
+    "abstract": "",
+    "speakers": [
+      {
+        "id": 0,
+        "name": "Bhaskar Pramanik",
+        "twitterHandle": "",
+		"tagline": "Chairman, Microsoft India",
+        "bio": "Chairman, Microsoft India Bhaskar Pramanik is Chairman, Microsoft Corporation (India) Private Limited. He is responsible for all of Microsoftâ€™s marketing, operations, and business development efforts in the country. He provides leadership for all Microsoft assets in India including R&D facilities and leads Microsoft's interactions with policy makers, customers, and business partners. Mr. Pramanik is focused on defining Microsoft's devices and services strategy for India to help businesses and individuals realize their true potential. He believes in developing people, promoting diversity and inclusion in the workplace and harnessing India's talent and innovation to bring the power of IT to positively impact society at large. With over 35 years of experience in the Indian IT industry, Mr. Pramanik comes to Microsoft from Oracle where he had been the Managing Director for its Indian operations. At Oracle, his focus was to create higher growth through cross leveraging of lines of business; to enhance customer satisfaction and to increase employee motivation. Prior to Oracle, he worked for Sun Microsystems for 13 years as the Managing Director in India and in his last position, served as Global Vice President, Commercial Systems at the U.S. HQ. Mr. Pramanik was instrumental in building the company's presence in India and helping it grow at a pace faster than the industry average. He has held several senior management positions in Digital Equipment India Ltd., Blue Star Ltd., and NELCO. Mr. Pramanik is an engineering graduate from the Indian Institute of Technology, Kanpur. He attended the Advanced Marketing Management Program at Stanford University. He is a member of the Executive Council of NASSCOM and is the co-chair of the National Committee for IT, ITES & e-Commerce at CII. In the past, he has also held leadership positions at other industry bodies including MAIT and AMCHAM. Mr. Pramanik is based in Gurgaon with his family. His interests are photography and reading.",
+        "headshotUrl": "/images/speakers/bhaskarpramanik.jpg"
+      }
+    ],
+    "begins": "2014-03-20T09:30:00.0000000+05:30",
+    "ends": "2014-03-20T10:00:00.0000000+05:30",
+    "location": "Keynote",
+    "vimeoId": ""
+  },
+  {
+    "id": 1,
+    "title": "Keynote 2",
+    "abstract": "something about keynote 2",
+    "speakers": [
+      {
+        "id": 1,
+        "name": "Yousef Khalidi",
+        "twitterHandle": "",
+		"tagline": "Distinguished Engineer, Microsoft",
+        "bio": "Distinguished Engineer, Microsoft Yousef Khalidi is a seasoned technologist with a proven record of over 24 years' experience shipping innovative software and hardware platforms. Yousef is currently a Distinguished Engineer at Microsoft, working on Windows Azure. Yousef was a member of the team that conceived and built the initial version of Windows Azure. Yousef is currently concentrating on Azure networking, including network virtualization, software-defined networks, and hybrid networks. Before joining Microsoft, Yousef was a Distinguished Engineer at Sun Microsystems. At Sun, he held several R&D, architecture, and management positions including CTO and Chief Architect of Solaris, Chief Architect of Sun's N1 initiative, Chief Architect of the Sun Cluster product-line, and as the principal architect of the Solaris MC and the Spring advanced development projects. He has worked on and published papers in several areas, including operating systems, cloud systems, distributed systems, networking, memory management, and computer architecture. He holds more than 40 patents in these areas. Yousef has a B.S. in Computer Science from West Virginia University, and an M.S. and Ph.D. in Information and Computer Science from Georgia Tech.",
+        "headshotUrl": "/images/speakers/yousefkhalidi.jpg"
+      }
+    ],
+    "begins": "2014-03-20T10:00:00.0000000+05:30",
+    "ends": "2014-03-20T10:45:00.0000000+05:30",
+    "location": "Board (Develop)",
+    "vimeoId": ""
+  },
+  {
+    "id": 2,
+    "title": "LAMP on Windows Azure",
+    "abstract": " Windows Azure has first class support for web applications built on the LAMP stack. This session talks about what it takes to build and deploy web apps using VMs for the front end using Apachie and PHP and a database using mySQL. There will also be coverage on how to scale your deployment and how you can setup diagnostics and monitoring.",
+    "speakers": [
+      {
+        "id": 1,
+        "name": "Yousef Khalidi",
+        "twitterHandle": "",
+		"tagline": "Distinguished Engineer, Microsoft",
+        "bio": "Distinguished Engineer, Microsoft Yousef Khalidi is a seasoned technologist with a proven record of over 24 years' experience shipping innovative software and hardware platforms. Yousef is currently a Distinguished Engineer at Microsoft, working on Windows Azure. Yousef was a member of the team that conceived and built the initial version of Windows Azure. Yousef is currently concentrating on Azure networking, including network virtualization, software-defined networks, and hybrid networks. Before joining Microsoft, Yousef was a Distinguished Engineer at Sun Microsystems. At Sun, he held several R&D, architecture, and management positions including CTO and Chief Architect of Solaris, Chief Architect of Sun's N1 initiative, Chief Architect of the Sun Cluster product-line, and as the principal architect of the Solaris MC and the Spring advanced development projects. He has worked on and published papers in several areas, including operating systems, cloud systems, distributed systems, networking, memory management, and computer architecture. He holds more than 40 patents in these areas. Yousef has a B.S. in Computer Science from West Virginia University, and an M.S. and Ph.D. in Information and Computer Science from Georgia Tech.",
+        "headshotUrl": "/images/speakers/yousefkhalidi.jpg"
+      }
+    ],
+    "begins": "2014-03-10T13:45:00.0000000+05:30",
+    "ends": "2014-03-10T13:50:00.0000000+05:30",
+    "location": "Board (Develop)",
+    "vimeoId": ""
+  }
+]
