@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using AzureConferenceLib.Helper;
 using AzureConferenceLib.ViewModels;
 
 namespace AzureConferenceLib.Models
@@ -73,6 +74,21 @@ namespace AzureConferenceLib.Models
             get
             {
                 return _location;
+            }
+            set
+            {
+                if (value != _location)
+                {
+                    _location = value;
+                    NotifyPropertyChanged("Location");
+                }
+            }
+        }
+        public string LocationHeader
+        {
+            get
+            {
+                return HelperMethods.GetLocationOrder(_location);
             }
             set
             {

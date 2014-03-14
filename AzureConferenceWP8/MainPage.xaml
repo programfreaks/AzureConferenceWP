@@ -93,7 +93,7 @@
                                 <ig:SortPreset DisplayText="Location"
                                     Field="Location" />
                             </ig:XamList.SortPresets>-->
-                            <ig:XamList.FilterSets>
+                            <!--<ig:XamList.FilterSets>
                                 <ig:FilterSet Title="Filter Set"
                                   DefaultFilterName="Greater">
                                     <ig:FilterPreset DisplayText="All" />
@@ -118,11 +118,19 @@
                                          Field="Location"
                                          Operator="Equals"
                                          Value="HOL" />
+                                    <ig:FilterPreset DisplayText="Start-up Conclave"
+                                         Field="Location"
+                                         Operator="Equals"
+                                         Value="Start-up Conclave" />
+                                    <ig:FilterPreset DisplayText="MIC Champs Connect"
+                                         Field="Location"
+                                         Operator="Equals"
+                                         Value="MIC Champs Connect" />
                                 </ig:FilterSet>
-                            </ig:XamList.FilterSets>
+                            </ig:XamList.FilterSets>-->
                             <ig:XamList.Grouping>
                                 <!--<ig:CustomGrouping GroupByMemberPath="Begins" >-->
-                                <ig:ValueGrouping GroupByMemberPath="Location" HeaderTemplate="{StaticResource SessionGroupHeader}" />
+                                <ig:ValueGrouping GroupByMemberPath="LocationHeader" HeaderTemplate="{StaticResource SessionGroupHeader}" />
                             </ig:XamList.Grouping>
 
                             <ig:XamList.ItemsTemplate>

@@ -87,7 +87,7 @@
                                 <ig:SortPreset DisplayText="Location"
                                     Field="Location" />
                             </ig:XamList.SortPresets>-->
-                            <ig:XamList.FilterSets>
+                            <!--<ig:XamList.FilterSets>
                                 <ig:FilterSet Title="Filter Set"
                                   DefaultFilterName="Greater">
                                     <ig:FilterPreset DisplayText="All" />
@@ -113,10 +113,10 @@
                                          Operator="Equals"
                                          Value="HOL" />
                                 </ig:FilterSet>
-                            </ig:XamList.FilterSets>
+                            </ig:XamList.FilterSets>-->
                             <ig:XamList.Grouping>
                                 <!--<ig:CustomGrouping GroupByMemberPath="Begins" >-->
-                                <ig:ValueGrouping GroupByMemberPath="Location" HeaderTemplate="{StaticResource SessionGroupHeader}" />
+                                <ig:ValueGrouping GroupByMemberPath="LocationHeader" HeaderTemplate="{StaticResource SessionGroupHeader}" />
                             </ig:XamList.Grouping>
                             <ig:XamList.ItemsTemplate>
                                 <DataTemplate>
