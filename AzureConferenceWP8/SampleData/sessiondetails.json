@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "title": "Keynote 1",
+        "title": "Keynote: Cloud Power",
         "abstract": "",
         "speakers": [
             {
@@ -19,14 +19,14 @@
     },
     {
         "id": 1,
-        "title": "Keynote 2",
+        "title": "Keynote: Windows Azure - Vision & Architecture",
         "abstract": "",
         "speakers": [
             {
                 "id": 29,
                 "name": "Yousef Khalidi",
                 "twitterHandle": "",
-                "tagline": "DISTINGUISHED ENGINEER,Microsoft",
+                "tagline": "Distinguished Engineer, Microsoft",
                 "bio": "Yousef Khalidi is a seasoned technologist with a proven record of over 24 years' experience shipping innovative software and hardware platforms. Yousef is currently a Distinguished Engineer at Microsoft, working on Windows Azure.",
                 "headshotUrl": "/images/speakers/khiladi.jpg"
             }
@@ -37,7 +37,7 @@
     },
     {
         "id": 2,
-        "title": "Keynote 3",
+        "title": "Keynote: Cloud momentum",
         "abstract": "",
         "speakers": [
             {
@@ -47,8 +47,18 @@
                 "tagline": "General Manager,DPE India,Microsoft",
                 "bio": "Joseph is an 18 year veteran of Microsoft and has played a variety of roles both in Sales & Marketing, and Business Groups. These include 5 years in OEM Sales, 5 years with Server and Tools, and stints in Germany and Russia as the Server Business Group Lead in Central and Eastern Europe. Joseph led the biggest IT Pro and Developer launch in the history of Microsoft with the ‘Heroes Happen Here' event of Windows Server 2008, SQL Server 2008, and Visual Studio 2008. Joseph is an avid reader and sports fan, and is looking forward to visiting every state and union territory in India.",
                 "headshotUrl": "/images/speakers/joseph.jpg"
-            },
- 	{
+            }
+        ],
+        "begins": "2014-03-21T09:30:00.0000000+05:30",
+        "ends": "2014-03-21T09:45:00.0000000+05:30",
+        "location": "Keynote"
+    },
+	{
+        "id": 56,
+        "title": "Keynote: The Cloud is Real. Let's get on it.",
+        "abstract": "",
+        "speakers": [
+ 			{
                 "id": 31,
                 "name": "Karan Bajwa",
                 "twitterHandle": "",
@@ -57,13 +67,13 @@
                 "headshotUrl": "/images/speakers/karan.jpg"
             }
         ],
-        "begins": "2014-03-21T09:30:00.0000000+05:30",
-        "ends": "2014-03-21T10:00:00.0000000+05:30",
+        "begins": "2014-03-21T09:45:00.0000000+05:30",
+        "ends": "2014-03-21T10:20:00.0000000+05:30",
         "location": "Keynote"
     },
     {
         "id": 3,
-        "title": "Keynote 4",
+        "title": "Keynote: Windows Azure Scenarios and Success Stories",
         "abstract": "",
         "speakers": [
             {
@@ -75,13 +85,13 @@
                 "headshotUrl": "/images/speakers/vibhor.jpg"
             }
         ],
-        "begins": "2014-03-21T10:00:00.0000000+05:30",
-        "ends": "2014-03-21T10:45:00.0000000+05:30",
+        "begins": "2014-03-21T10:20:00.0000000+05:30",
+        "ends": "2014-03-21T11:00:00.0000000+05:30",
         "location": "Keynote"
     },
     {
         "id": 4,
-        "title": "Closing Note",
+        "title": "Closing Note & Customer Panel: Hearing it from the Windows Azure Heroes.",
         "abstract": "",
         "speakers": [
             {
@@ -89,12 +99,11 @@
                 "name": "Tyler Bryson",
                 "twitterHandle": "",
                 "tagline": "General Manager,M&O,Microsoft India",
-                "bio": "Tyler Bryson oversees marketing and operations for Microsoft's India subsidiary. He functions as Microsoft’s Chief Marketing Officer for India and has broad responsibility for all sales, marketing and services operations. Tyler's responsibilities span both consumer and commercial customers as well as the Microsoft partners that serve these customers.Tyler has over 20 years of experience in the software industry in a variety of executive sales and marketing positions. Prior to his current role, Tyler worked as Microsoft's General Manager for the Enterprise and Partners Group in the Southwest United States. Tyler also worked as the General Manager for Marketing and Sales for United States Manufacturing and Resources Sector. In this role Tyler led Microsoft's sales, marketing and partner strategy for the High Tech, Automotive, Industrial Equipment, Oil & Gas and Utilities industry verticals. Before joining Microsoft, Tyler was the Vice President of Sales and Marketing for QuickStart Technologies, an IT services firm that focused on helping organizations understand and apply Microsoft technology.",
+                "bio": "Tyler Bryson oversees marketing and operations for Microsoft's India subsidiary. He functions as Microsoft's Chief Marketing Officer for India and has broad responsibility for all sales, marketing and services operations. Tyler's responsibilities span both consumer and commercial customers as well as the Microsoft partners that serve these customers.Tyler has over 20 years of experience in the software industry in a variety of executive sales and marketing positions. Prior to his current role, Tyler worked as Microsoft's General Manager for the Enterprise and Partners Group in the Southwest United States. Tyler also worked as the General Manager for Marketing and Sales for United States Manufacturing and Resources Sector. In this role Tyler led Microsoft's sales, marketing and partner strategy for the High Tech, Automotive, Industrial Equipment, Oil & Gas and Utilities industry verticals. Before joining Microsoft, Tyler was the Vice President of Sales and Marketing for QuickStart Technologies, an IT services firm that focused on helping organizations understand and apply Microsoft technology.",
                 "headshotUrl": "/images/speakers/bryson.jpg"
             }
         ],
-        "begins": "2014-03-21T17:30:00.0000000+05:30",
-        "ends": "2014-03-21T18:15:00.0000000+05:30",
+        "begins": "2014-03-21T17:00:00.0000000+05:30",
         "location": "Keynote"
     },
     {
@@ -198,14 +207,14 @@
     {
         "id": 10,
         "title": "Windows Azure Mobile Services from the ground up",
-        "abstract": "Join this session for a non-stop demo and whirlwind tour of all of Mobile Services capabilities, new and old including custom API, source control, HTML + JS support, push notifications, npm and more. We’ll take a scenario and create real apps that connect to a Mobile Service from a variety of platforms. ",
+        "abstract": "Join this session for a non-stop demo and whirlwind tour of all of Mobile Services capabilities, new and old including custom API, source control, HTML + JS support, push notifications, npm and more. We'll take a scenario and create real apps that connect to a Mobile Service from a variety of platforms. ",
         "speakers": [
             {
                 "id": 3,
                 "name": "Gandhali Samant",
                 "twitterHandle": "",
                 "tagline": "Technical Evangelist, DPE, Microsoft",
-                "bio": "Gandhali works as a Technology Evangelist in Microsoft India, with her work focusing on Windows 8, Windows Phone and Windows Azure Development. She has been working with Microsoft’s products & technologies for over 11 years ranging from .Net framework,ASP.Net, WCF,SQL Server, SSAS and SSIS to Windows 8 and Windows Azure. Her current focus is to help partners, customers and developers adopt to the latest Microsoft technologies. Prior to Microsoft, she worked in various MNCs, focusing primarily on the Insurance domain. She is a graduate in Computer Engineering from Mumbai University and has done her Masters in Computer Science from Florida Institute of Technology. In her spare time, she likes to read, travel and spend time with her family",
+                "bio": "Gandhali works as a Technology Evangelist in Microsoft India, with her work focusing on Windows 8, Windows Phone and Windows Azure Development. She has been working with Microsoft's products & technologies for over 11 years ranging from .Net framework,ASP.Net, WCF,SQL Server, SSAS and SSIS to Windows 8 and Windows Azure. Her current focus is to help partners, customers and developers adopt to the latest Microsoft technologies. Prior to Microsoft, she worked in various MNCs, focusing primarily on the Insurance domain. She is a graduate in Computer Engineering from Mumbai University and has done her Masters in Computer Science from Florida Institute of Technology. In her spare time, she likes to read, travel and spend time with her family",
                 "headshotUrl": "/images/speakers/gandhali.jpg"
             }
         ],
@@ -260,7 +269,7 @@
     {
         "id": 13,
         "title": "Data Storage options on Windows Azure",
-        "abstract": "Developers have a bewildering array of choice today – SQL, noSQL, key-value, document, and, by the way, there’s this Hadoop thing too. Windows Azure supports a variety of first and third party data storage and management options to provide the degree of choice developers expect. We’ll look at the data patterns and requirements of modern applications, then map these requirements to the capabilities of the various data management options offered in Azure. After this talk you will be able to make better architectural and implementation choices for your application.",
+        "abstract": "Developers have a bewildering array of choice today – SQL, noSQL, key-value, document, and, by the way, there's this Hadoop thing too. Windows Azure supports a variety of first and third party data storage and management options to provide the degree of choice developers expect. We'll look at the data patterns and requirements of modern applications, then map these requirements to the capabilities of the various data management options offered in Azure. After this talk you will be able to make better architectural and implementation choices for your application.",
         "speakers": [
             {
                 "id": 7,
@@ -340,15 +349,15 @@
     {
         "id": 17,
         "title": "Nodes, relationships, and freeform data: Exploring OSS graph and document databases in Windows Azure",
-        "abstract": "We’re seeing a paradigm shift in database use, moving away from a one-size-fits-all model, and into a multi-database-for-multi-need model known as polyglot persistence. The main reason? Companies are discovering that traditional relational models for organizing data are not always an ideal fit for the challenges introduced by use cases the app challenges in today’s world of connect apps, such as deep level social network relationships or schema-less data ingested from heterogeneous sources. This session takes a look at two popular NoSQL variants for tackling these situations: documents and graphs. This demo-heavy session will explore the storage and searching highlights of MongoDB and Neo4j, their benefits when used side-by-side with SQL databases, and the options for running these powerful database engines in Windows Azure.",
+        "abstract": "We're seeing a paradigm shift in database use, moving away from a one-size-fits-all model, and into a multi-database-for-multi-need model known as polyglot persistence. The main reason? Companies are discovering that traditional relational models for organizing data are not always an ideal fit for the challenges introduced by use cases the app challenges in today's world of connect apps, such as deep level social network relationships or schema-less data ingested from heterogeneous sources. This session takes a look at two popular NoSQL variants for tackling these situations: documents and graphs. This demo-heavy session will explore the storage and searching highlights of MongoDB and Neo4j, their benefits when used side-by-side with SQL databases, and the options for running these powerful database engines in Windows Azure.",
         "speakers": [
             {
-                "id": 51,
-                "name": "Ricardo Villalobos",
+                "id": 55,
+                "name": "Shweta Gupta",
                 "twitterHandle": "",
-                "tagline": "Business Evangelist, Microsoft USA",
-                "bio": "",
-                "headshotUrl": ""
+                "tagline": "Senior Program Manager, Microsoft India",
+                "bio": "With 9+ year of work experience in various Microsoft technologies, Shweta is currently a senior program manager specializing in Azure for the last three years. Her expertise lies in enabling building and migration of workloads onto Azure, focusing on re-architecting for short term as well as long term. Shweta has a computer applications background with an MBA in Finance. In the past she has written papers, and spoken at several international conferences on application of information technology in the financial reporting domain.",
+                "headshotUrl": "/images/speakers/shwetagupta.jpg"
             },
             {
                 "id": 19,
@@ -391,7 +400,7 @@
                 "name": "Paresh Patel",
                 "twitterHandle": "",
                 "tagline": "Technology Solution Professional, Microsoft USA",
-                "bio": "Paresh is a World Wide StorSimple Technology Specialist and runs the World Wide StorSimple partner program. Paresh came to Microsoft from their acquisition of StorSimple. He has over 25 years of experience in IT and storage companies. Having been both a customer and vendor give him unique insight into the current state of IT industry and its future.The last 3 startups (StorSimple, 3PAR, Vonage) that Paresh has worked at have been either been acquired by major corporations (Microsoft, HP) or gone have gone public (Vonage). His area of expertise include Cloud, Storage and BI systems. He has built large cloud services for large US companies like Verizon, Data Pipe and Standard and Poor’s.",
+                "bio": "Paresh is a World Wide StorSimple Technology Specialist and runs the World Wide StorSimple partner program. Paresh came to Microsoft from their acquisition of StorSimple. He has over 25 years of experience in IT and storage companies. Having been both a customer and vendor give him unique insight into the current state of IT industry and its future.The last 3 startups (StorSimple, 3PAR, Vonage) that Paresh has worked at have been either been acquired by major corporations (Microsoft, HP) or gone have gone public (Vonage). His area of expertise include Cloud, Storage and BI systems. He has built large cloud services for large US companies like Verizon, Data Pipe and Standard and Poor's.",
                 "headshotUrl": "/images/speakers/pareshPatel.jpg"
             }
         ],
@@ -428,7 +437,7 @@
     {
         "id": 21,
         "title": "Open Source Technologies on Windows Azure: A Survey",
-        "abstract": "Even though it’s called Windows Azure, Microsoft’s cloud platform offers more than Windows-based software—there’s plenty of support for open source technologies. This session takes a broad look at the open source offerings that Windows Azure provides today. The goal is to give you a big-picture perspective on what the options are and when to use them. ",
+        "abstract": "Even though it's called Windows Azure, Microsoft's cloud platform offers more than Windows-based software—there's plenty of support for open source technologies. This session takes a broad look at the open source offerings that Windows Azure provides today. The goal is to give you a big-picture perspective on what the options are and when to use them. ",
         "speakers": [
             {
                 "id": 24,
@@ -467,12 +476,12 @@
         "abstract": " Oracle and Microsoft are working together to help customers embrace cloud computing by providing greater choice and flexibility in how to deploy Oracle software. In this session, we share details of how customers can take advantage of Azure for their Oracle software including databases, middleware and JAVA applications.",
         "speakers": [
             {
-                "id": 21,
-                "name": "N. Raja",
+                "id": 56,
+                "name": "Parikshit Savjani",
                 "twitterHandle": "",
-                "tagline": "Solution Specialist, Microsoft Singapore",
-                "bio": "Raja is Technology Specialist at Microsoft, primarily supporting large Enterprise customers on their various Business Applications (ERP / CRM / LOB), Database and BI initiatives. He has 20+ years of IT exposure in various challenging capacities. He is a MCT (Microsoft Certified Trainer) and he frequently speaks at major summits and conferences including TechED, MCT Summits, SQL Server User Group etc. He is a veteran in Technology, Databases, SQL Server & Business Intelligence, and Windows Server. Prior to joining Microsoft, Raja has led an IT infrastructure / application team covering Asia region.  He has also successfully implemented ERP solutions in various parts of the world including Europe, Greater China and India.  These implementations yielded strong ROI, greatly improved operational performance and laid the foundation for continuous improvements and growth potential.  Raja has obtained Degree in Business Administration from University of Madras, India.   You can visit his blog at http://blogs.technet.com/nraja/",
-                "headshotUrl": "/images/speakers/nRaja.jpg"
+                "tagline": "Senior Premier Field Engineer, Microsoft India",
+                "bio": "",
+                "headshotUrl": ""
             }
         ],
         "begins": "2014-03-20T16:10:00.0000000+05:30",
@@ -569,8 +578,8 @@
                 "name": "Manas Biswas",
                 "twitterHandle": "",
                 "tagline": "Senior Support Escalation Engineer, Microsoft India",
-                "bio": "",
-                "headshotUrl": ""
+                "bio": "With around 10+ years in the industry, Manas Biswas has worked with SharePoint and related technologies extensively. Being a part of SharePoint Escalation services at Microsoft, his primary area of focus is Microsoft's cloud strategies, Office 365 and Azure. Training and Readiness for SharePoint and it's cloud deployments has been a significant area of his focus. He is known for being Speaker at Technical sessions in conferences like SharePoint Conference, MVP Open days, CSI events and various other partner events.",
+                "headshotUrl": "/images/speakers/manasbiswas.jpg"
             }
         ],
         "begins": "2014-03-20T11:00:00.0000000+05:30",
@@ -605,8 +614,8 @@
                 "name": "Norman Sequeira",
                 "twitterHandle": "",
                 "tagline": "Senior Consultant, MCS, Microsoft India",
-                "bio": "",
-                "headshotUrl": ""
+                "bio": "Norman has about 15+ years of overall IT experience and 13 years with Microsoft India. During his tenure with Microsoft, Norman has worked on turnkey projects for customers in media, retail industries. Norman is regarded as an SME on e-commerce and integration technologies and has been consulting on Windows Azure over the last few years. He is a Microsoft Certified Professional on BizTalk Server and Window Azure.",
+                "headshotUrl": "/images/speakers/normansequeira.jpg"
             },
             {
                 "id": 26,
@@ -639,7 +648,7 @@
                 "name": "Sanjay Narang",
                 "twitterHandle": "",
                 "tagline": "Senior Consultant, MCS, Microsoft India",
-                "bio": "Sanjay is Senior Consultant with Microsoft Consulting Services (MCS), India. Sanjay specializes in SharePoint Products and Technologies. He consults various enterprise customers on development and deployment of Microsoft technologies. He has been architecting and implementing some of India’s largest SharePoint implementations. He is the first Microsoft Certified Master (MCM) for SharePoint Server 2010 from India. He has published many technical articles in web sites, journals, personal blog (http://blogs.msdn.com/b/sanjaynarang/). Sanjay is also part of the team that created SharePoint 2013 Product Line Architecture (PLA). \n \n Sanjay has been rewarded with the Microsoft Circle of Excellence Platinum award for his contributions towards Microsoft and its customers, and WW Communities Award for his outstanding community contributions. He is part of Office of Chief Technology Officer (OCTO) for India Services, he leads regional community for SharePoint, and led the IP Harvesting program for MCS India.",
+                "bio": "Sanjay is Senior Consultant with Microsoft Consulting Services (MCS), India. Sanjay specializes in SharePoint Products and Technologies. He consults various enterprise customers on development and deployment of Microsoft technologies. He has been architecting and implementing some of India's largest SharePoint implementations. He is the first Microsoft Certified Master (MCM) for SharePoint Server 2010 from India. He has published many technical articles in web sites, journals, personal blog (http://blogs.msdn.com/b/sanjaynarang/). Sanjay is also part of the team that created SharePoint 2013 Product Line Architecture (PLA). \n \n Sanjay has been rewarded with the Microsoft Circle of Excellence Platinum award for his contributions towards Microsoft and its customers, and WW Communities Award for his outstanding community contributions. He is part of Office of Chief Technology Officer (OCTO) for India Services, he leads regional community for SharePoint, and led the IP Harvesting program for MCS India.",
                 "headshotUrl": "/images/speakers/sanjayNarang.jpg"
             }
         ],
@@ -745,7 +754,7 @@
                 "name": "Sunil Kumar Chakrapani",
                 "twitterHandle": "",
                 "tagline": "Senior Support Engineer, Microsoft India",
-                "bio": "He is with Microsoft support for more than 8 years, passionate about helping customers in using Microsoft Technologies to bring out their full potential. Working in HDInsight Support Team he is actively involved in assisting customers to realize Data to Insight concept.With 12 years’ experience in technology, has knowledge on most of the developer technology that Microsoft has introduced. He is excited being part of the Microsoft Big Data team for the potential the technology holds.",
+                "bio": "He is with Microsoft support for more than 8 years, passionate about helping customers in using Microsoft Technologies to bring out their full potential. Working in HDInsight Support Team he is actively involved in assisting customers to realize Data to Insight concept.With 12 years' experience in technology, has knowledge on most of the developer technology that Microsoft has introduced. He is excited being part of the Microsoft Big Data team for the potential the technology holds.",
                 "headshotUrl": "/images/speakers/Sunil.jpg"
             }
         ],
@@ -852,22 +861,22 @@
     {
         "id": 41,
         "title": "Power your mobile apps with Azure Mobile Services and NoSQL",
-        "abstract": "Mobile applications require access to fast, reliable, and scalable services to provide features such as shared storage, user management, push notifications, and social network integration. Windows Azure Mobile Services provides a straightforward way to build these backend services, supporting multiple type of devices such as iOS, Android, and Windows Phone. Out of the box, Mobile Services relies on SQL Server as its backing store. In this session, we’ll show you how to incorporate other database engines into the mix, specifically MongoDB and Neo4j, which address specific use cases such as dealing with unstructured/variable schemas, or traversing social network nodes and relationships. Mobile Services provides integrated git version control, which we’ll take advantage of when extending our backend services with 3rd-party libraries such as database drivers.",
+        "abstract": "Mobile applications require access to fast, reliable, and scalable services to provide features such as shared storage, user management, push notifications, and social network integration. Windows Azure Mobile Services provides a straightforward way to build these backend services, supporting multiple type of devices such as iOS, Android, and Windows Phone. Out of the box, Mobile Services relies on SQL Server as its backing store. In this session, we'll show you how to incorporate other database engines into the mix, specifically MongoDB and Neo4j, which address specific use cases such as dealing with unstructured/variable schemas, or traversing social network nodes and relationships. Mobile Services provides integrated git version control, which we'll take advantage of when extending our backend services with 3rd-party libraries such as database drivers.",
         "speakers": [
             {
-                "id": 51,
-                "name": "Ricardo Villalobos",
+                "id": 55,
+                "name": "Shweta Gupta",
                 "twitterHandle": "",
-                "tagline": "Business Evangelist, Microsoft USA",
-                "bio": "",
-                "headshotUrl": ""
+                "tagline": "Senior Program Manager, Microsoft India",
+                "bio": "With 9+ year of work experience in various Microsoft technologies, Shweta is currently a senior program manager specializing in Azure for the last three years. Her expertise lies in enabling building and migration of workloads onto Azure, focusing on re-architecting for short term as well as long term. Shweta has a computer applications background with an MBA in Finance. In the past she has written papers, and spoken at several international conferences on application of information technology in the financial reporting domain.",
+                "headshotUrl": "/images/speakers/shwetagupta.jpg"
             },
             {
                 "id": 19,
                 "name": "David Makogon",
                 "twitterHandle": "",
                 "tagline": "Senior Technology Evangelist, Microsoft Corp.",
-                "bio": "David Makogon has been a software creationist and architect for over 25 years. He’s currently a Senior Technology Evangelist at Microsoft specializing in Windows Azure, and has the dubious title of World’s First Former Windows Azure MVP. David is also a member of the MongoDB Masters group, and spends lots of energy in the user community, speaking at user groups, conferences, and code camps. Outside of computing, David is an avid photographer and family man, with a penchant for puns and an uncanny ability to read backwards.",
+                "bio": "David Makogon has been a software creationist and architect for over 25 years. He's currently a Senior Technology Evangelist at Microsoft specializing in Windows Azure, and has the dubious title of World's First Former Windows Azure MVP. David is also a member of the MongoDB Masters group, and spends lots of energy in the user community, speaking at user groups, conferences, and code camps. Outside of computing, David is an avid photographer and family man, with a penchant for puns and an uncanny ability to read backwards.",
                 "headshotUrl": "/images/speakers/David.jpg"
             }
         ],
@@ -878,7 +887,7 @@
     {
         "id": 42,
         "title": "Caching data in the cloud with Windows Azure",
-        "abstract": "This session is a deep dive into the new Windows Azure Caching on role instances. This session reviews the Caching features, and then provides demos and walkthroughs of implementing several key scenarios, including configuring dedicated and co-located cache topologies, using the capacity guide planner to determine the right cache cluster settings, best practices for implementing caching in your applications, and an overview of troubleshooting and diagnostics using the caching diagnostic level introduced in Windows Azure 1.8.",
+        "abstract": "This session delves into the new Windows Azure Cache Service (preview) and reviews the Caching features. The session also provides demos and walkthroughs of implementing several key scenarios and an overview of troubleshooting and diagnostics using the caching diagnostic levels.",
         "speakers": [
             {
                 "id": 27,
@@ -896,7 +905,7 @@
     {
         "id": 43,
         "title": "Running SAP Business Suite and NetWeaver on Windows Azure IAAS",
-        "abstract": "This session will outline SAP workload running on Azure, including what’s possible, what’s not possible and high level processes involved in moving them to Azure along with what to watch out for while planning such move. Learn about best practices observed by our specialist from early adopters across the globe.",
+        "abstract": "This session will outline SAP workload running on Azure, including what's possible, what's not possible and high level processes involved in moving them to Azure along with what to watch out for while planning such move. Learn about best practices observed by our specialist from early adopters across the globe.",
         "speakers": [
             {
                 "id": 39,
@@ -929,7 +938,7 @@
         "ends": "2014-03-21T15:50:00.0000000+05:30",
         "location": "HOL"
     },
- {
+	{
         "id": 45,
         "title": "Start-up Conclave Venue:The Lalit Ashok",
         "abstract": "The Start-up Conclave aims at bringing together aspiring and young entrepreneurs under one roof. It is an endeavour to introduce them to the endless possibilities offered by Windows Azure, its ability to equip them with the right resources and software development tools. Distinguished speakers from Microsoft along with several external industry leaders will address the conclave on issues of IT policy, finance, marketing and technology.Come, explore the myriad opportunities, issues, technology trends and a wide range of business ideas that affect start-up communities.This event is by invite only. If you would like to be a part of this event, please write to us at startcon@microsoft.com.",
@@ -937,32 +946,25 @@
         "ends": "2014-03-20T18:45:00.0000000+05:30",
         "location": "Start-up Conclave"
     },
-  {
-        "id": 46,
-	"abstract": "",
-        "title": "Onsite Reporting",  
-        "begins": "2014-03-20T09:15:00.0000000+05:30",
-        "location": "MIC Champs Connect"
-    },
-  {
+	{
         "id": 47,
-	"abstract": "",
-        "title": "Key Notes",  
+		"abstract": "",
+        "title": "Attend Key Notes",  
         "begins": "2014-03-20T09:30:00.0000000+05:30",
-        "ends": "2014-03-20T11:30:00.0000000+05:30",
+        "ends": "2014-03-20T10:45:00.0000000+05:30",
         "location": "MIC Champs Connect"
     },
-  {
+	{
         "id": 48,
-	"abstract": "",
+		"abstract": "",
         "title": "Assemble for MIC Breakout (MIC Hall)",  
-        "begins": "2014-03-20T11:30:00.0000000+05:30",
-        "ends": "2014-03-20T11:40:00.0000000+05:30",
+        "begins": "2014-03-20T10:45:00.0000000+05:30",
+        "ends": "2014-03-20T11:00:00.0000000+05:30",
         "location": "MIC Champs Connect"
     },
- {
+	{
         "id": 49,
-	"abstract": "Session on MS Ventures on Innovation (Funding element of eco system, etc.),Session on Customer Acquisition, 1stBiz, etc",
+		"abstract": "",
         "title": "Welcome Note",
         "speakers": [
             {
@@ -973,65 +975,103 @@
                 "bio": "Joseph is an 18 year veteran of Microsoft and has played a variety of roles both in Sales & Marketing, and Business Groups. These include 5 years in OEM Sales, 5 years with Server and Tools, and stints in Germany and Russia as the Server Business Group Lead in Central and Eastern Europe. Joseph led the biggest IT Pro and Developer launch in the history of Microsoft with the ‘Heroes Happen Here' event of Windows Server 2008, SQL Server 2008, and Visual Studio 2008. Joseph is an avid reader and sports fan, and is looking forward to visiting every state and union territory in India.",
                 "headshotUrl": "/images/speakers/joseph.jpg"
             },
- 	   {
+ 			{
                 "id": 52,
                 "name": "Pratima Amonkar",
                 "twitterHandle": "",
-		"bio": "",
+				"bio": "",
                 "tagline": "Strategic Director- Audience Marketing-DPE, Microsoft India",
-                "headshotUrl": ""
-            },
-           {
-                "id": 53,
-                "name": "Mukund Mohan",
-                "twitterHandle": "",
-		"bio": "",
-                "tagline": "Director- Ms Accelerator Programs",
-                "headshotUrl": ""
-            },
- 	   {
-                "id": 54,
-                "name": "Rajinish Kattayil",
-                "twitterHandle": "",
-		"bio": "",
-                "tagline": "",
                 "headshotUrl": ""
             }
         ],
-        "begins": "2014-03-20T11:40:00.0000000+05:30",
-        "ends": "2014-03-20T13:30:00.0000000+05:30",
+        "begins": "2014-03-20T11:00:00.0000000+05:30",
+        "ends": "2014-03-20T11:30:00.0000000+05:30",
         "location": "MIC Champs Connect"
     },
- {
+	{
+        "id": 55,
+		"abstract": "",
+        "title": "Session on MS Ventures on Innovation (Funding element of eco system, etc.),Session on Customer Acquisition, 1stBiz, etc",
+        "speakers": [
+			{
+                "id": 53,
+                "name": "Mukund Mohan",
+                "twitterHandle": "",
+				"bio": "Mukund Mohan is the director of Microsoft Ventures. He founded and sold BuzzGain, a leader in Do It Yourself PR, to Meltwater in January 2010. He has founded and successfully sold 3 Silicon Valley startups in the Internet & Enterprise software markets. Mukund has held executive and management roles in Hewlett Packard (Mercury), Ariba and Cisco Systems. He studied at the University of Maryland, Baltimore County pursuing a Master's degree in Computer Science and holds a Bachelor's degree in engineering and computer science from the University of Mysore in India. Mukund writes about startups, entrepreneurship and building high performance growth companies at http://www.bestengagingcommunities.com",
+                "tagline": "Director, Microsoft Ventures",
+                "headshotUrl": "/images/speakers/mukundmohan.jpg"
+            },
+ 			{
+                "id": 54,
+                "name": "Rajinish Kattayil Menon",
+                "twitterHandle": "",
+				"bio": "Rajinish is a seasoned biz app professional with over 17 years of experience in enterprise, SI, ISV & startup space, in various verticals like Banking, Insurance, Retail, BI, and Power Utilities. Rajinish is a qualified Chartered Accountant with other master's degrees in commerce and taxation. Since entering the field of IT, Rajinish has also gained expertise and additional qualifications in various ERP/CRM areas. Rajinish heads the startup strategy for Microsoft. He is passionately involved in setting up a sustainable startup ecosystem that aims to create a culture of innovation, inclusive growth on a self-sustaining basis. In his current role he also leads the hugely successful 'Microsoft Bizspark' program that helps software startups succeed, by giving them access to Microsoft software development tools, and connecting them with key industry players, including investors, and providing marketing visibility to help entrepreneurs starting a business.",
+                "tagline": "Director – Startups",
+                "headshotUrl": "/images/speakers/rajinishmenon.jpg"
+            }
+        ],
+        "begins": "2014-03-20T11:30:00.0000000+05:30",
+        "ends": "2014-03-20T13:00:00.0000000+05:30",
+        "location": "MIC Champs Connect"
+    },
+	{
         "id": 50,
-	"abstract": "",
+		"abstract": "",
         "title": "Lunch",  
         "begins": "2014-03-20T13:30:00.0000000+05:30",
-        "ends": "2014-03-20T14:00:00.0000000+05:30",
+        "ends": "2014-03-20T13:50:00.0000000+05:30",
         "location": "MIC Champs Connect"
     },
- {
+	{
         "id": 51,
-	"abstract": "",
-        "title": "Get your questions answered by the Tech Evangelism Team ",  
+		"abstract": "",
+        "title": "Roadmap for Azure, Devices and Technology",
+		"speakers": [
+			{
+                "id": 58,
+                "name": "Sandeep Alur",
+                "twitterHandle": "",
+				"bio": "Sandeep Alur has over 15 years of industry experience working with a range of clientele in India and across the globe. At Microsoft, he leads the Technical Evangelism Charter for India, and works with the developer & partner ecosystem to provide them a foundation to build solutions on the Windows Platform. He believes that 'Apps' are central to engaging consumers in order to make them productive in the real world and ‘Quality' will be the biggest differentiator. With a rich background of providing technology and architectural guidance to Enterprise customers, Sandeep's experience ranges from the dotcom days to the next generation distributed and cloud computing technologies on Microsoft Platform. He has architected solutions across the Microsoft Technology Suite and is a stern believer of his own philosophy, which says “Enterprise architecture is an evolution and it grows with innovation”. Sandeep has also authored quite a few articles in the area of SOA, ESB, Enterprise Framework, Distributed Computing technologies, Web 2.0, Next Generation Web, and Cloud Computing to name a few. You can follow him on twitter @saalur.",
+                "tagline": "Technical Evangelism Lead – Microsoft India",
+                "headshotUrl": "/images/speakers/sandeepalur.jpg"
+            }
+        ],  
         "begins": "2014-03-20T14:00:00.0000000+05:30",
-        "ends": "2014-03-20T15:00:00.0000000+05:30",
+        "ends": "2014-03-20T14:45:00.0000000+05:30",
         "location": "MIC Champs Connect"
     },
-  {
+	{
         "id": 52,
-	"abstract": "",
-        "title": "All-hand discussion and MIC best practice share",  
-        "begins": "2014-03-20T15:00:00.0000000+05:30",
-        "ends": "2014-03-20T16:00:00.0000000+05:30",
+		"abstract": "",
+        "title": "MIC best practice sharing",  
+        "begins": "2014-03-20T14:45:00.0000000+05:30",
+        "ends": "2014-03-20T15:15:00.0000000+05:30",
         "location": "MIC Champs Connect"
     },
    {
         "id": 53,
-	"abstract": "",
+		"abstract": "",
         "title": "Closing and next steps",  
-        "begins": "2014-03-20T16:00:00.0000000+05:30",
-        "ends": "2014-03-20T16:15:00.0000000+05:30",
+        "begins": "2014-03-20T15:15:00.0000000+05:30",
+        "ends": "2014-03-20T15:30:00.0000000+05:30",
         "location": "MIC Champs Connect"
+    },
+	{
+        "id": 54,
+        "title": "Track Keynote (Microsoft's Commitment to Openness)",
+        "abstract": "",
+        "speakers": [
+            {
+                "id": 57,
+                "name": "Balaji Kesavaraj",
+                "twitterHandle": "",
+                "tagline": "Director – Platform Strategy, Microsoft India",
+                "bio": "",
+                "headshotUrl": ""
+            }
+        ],
+        "begins": "2014-03-20T11:00:00.0000000+05:30",
+        "ends": "2014-03-20T11:10:00.0000000+05:30",
+        "location": "Keynote"
     }
 ]

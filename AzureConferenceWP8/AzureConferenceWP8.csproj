@@ -123,16 +123,29 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Content Include="ApplicationIconB.png" />
+    <Content Include="ApplicationIconW.png" />
     <Content Include="Assets\map.direction.png" />
     <Content Include="Content\About\AboutStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Content>
     <Content Include="FlipCycleTileLargeWhite.png" />
+    <Content Include="FlipCycleTileMediumB.png" />
     <Content Include="FlipCycleTileMediumBlue.png" />
+    <Content Include="FlipCycleTileMediumW.png" />
     <Content Include="FlipCycleTileMediumWhite.png" />
+    <Content Include="FlipCycleTileSmallB.png" />
     <Content Include="FlipCycleTileSmallBlue.png" />
+    <Content Include="FlipCycleTileSmallW.png" />
     <Content Include="FlipCycleTileSmallWhite.png" />
+    <Content Include="FlipCycleTileWideB.png" />
+    <Content Include="FlipCycleTileWideW.png" />
+    <Content Include="images\speakers\manasbiswas.jpg" />
+    <Content Include="images\speakers\mukundmohan.jpg" />
+    <Content Include="images\speakers\normansequeira.jpg" />
+    <Content Include="images\speakers\rajinishmenon.jpg" />
+    <Content Include="images\speakers\sandeepalur.jpg" />
     <Content Include="MerchandizingImageBlue.png" />
     <Content Include="MerchandizingImageWhite.png" />
     <Content Include="SplashScreenImage.screen-720p.jpg" />

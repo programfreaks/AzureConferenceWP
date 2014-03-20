@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{38f224f7-195b-4470-925a-0357754749f4}" Title="WAC2014" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="ProgramFreaks" Description="Windows Azure Conference 2014" Publisher="Microsoft" PublisherID="{c6b439e0-f7fd-4f95-9ce4-aaa03025166e}">
-    <IconPath IsRelative="true" IsResource="false">MerchandizingImageWhite.png</IconPath>
+  <App xmlns="" ProductID="{d93c710d-5de7-43d3-b7b6-32b60fe347bb}" Title="WAC2014" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="ProgramFreaks" Description="This App is for Windows Azure Conference 2014. It provides the event information, agenda and speaker details." Publisher="Microsoft" PublisherID="{c698c2b4-94d8-4c80-81a4-cc7d128a7bc4}">
+    <IconPath IsRelative="true" IsResource="false">ApplicationIconW.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
@@ -17,9 +17,9 @@
     <Tokens>
       <PrimaryToken TokenID="AzureConferenceWP8Token" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">FlipCycleTileSmallWhite.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">FlipCycleTileSmallW.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">FlipCycleTileMediumWhite.png</BackgroundImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">FlipCycleTileMediumW.png</BackgroundImageURI>
           <Title>WAC2014</Title>
           <BackContent>
           </BackContent>
@@ -27,7 +27,7 @@
           </BackBackgroundImageURI>
           <BackTitle>
           </BackTitle>
-          <LargeBackgroundImageURI IsRelative="true" IsResource="false">FlipCycleTileLargeWhite.png</LargeBackgroundImageURI>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">FlipCycleTileWideW.png</LargeBackgroundImageURI>
           <LargeBackContent />
           <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
           </LargeBackBackgroundImageURI>

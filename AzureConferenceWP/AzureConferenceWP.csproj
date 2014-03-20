@@ -131,6 +131,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Content Include="ApplicationIconW.png" />
     <Content Include="Content\About\AboutStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -171,10 +172,15 @@
     <Content Include="FlipCycleTileLarge.png" />
     <Content Include="FlipCycleTileMedium.png" />
     <Content Include="FlipCycleTileMediumBlue.png" />
+    <Content Include="FlipCycleTileMediumW.png" />
     <Content Include="FlipCycleTileMediumWhite.png" />
     <Content Include="FlipCycleTileSmall.png" />
     <Content Include="FlipCycleTileSmallWhite.png" />
     <Content Include="images\map.direction.png" />
+    <Content Include="images\speakers\manasbiswas.jpg" />
+    <Content Include="images\speakers\mukundmohan.jpg" />
+    <Content Include="images\speakers\rajinishmenon.jpg" />
+    <Content Include="images\speakers\sandeepalur.jpg" />
     <Content Include="MerchandizingImage.png" />
     <Content Include="MerchandizingImageBlue.png" />
     <Content Include="MerchandizingImageWhite.png" />

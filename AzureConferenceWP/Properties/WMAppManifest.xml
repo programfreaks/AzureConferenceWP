@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <App xmlns="" ProductID="{5b61a346-1ec9-40fd-9af8-33b125e010cc}" Title="WAC2014" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="AzureConferenceWP author" Description="Windows Azure Conference 2014" Publisher="AzureConferenceWP" BitsPerPixel="32">
-    <IconPath IsRelative="true" IsResource="false">MerchandizingImageWhite.png</IconPath>
+  <App xmlns="" ProductID="{d93c710d-5de7-43d3-b7b6-32b60fe347bb}" Title="WAC2014" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="ProgramFreaks" Description="This App is for Windows Azure Conference 2014. It provides the event information, agenda and speaker details." Publisher="Microsoft" BitsPerPixel="32">
+    <IconPath IsRelative="true" IsResource="false">ApplicationIconW.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES" />
       <Capability Name="ID_CAP_IDENTITY_DEVICE" />
@@ -24,7 +24,7 @@
     <Tokens>
       <PrimaryToken TokenID="AzureConferenceWPToken" TaskName="_default">
         <TemplateType5>
-          <BackgroundImageURI IsRelative="true" IsResource="false">FlipCycleTileMediumWhite.png</BackgroundImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">FlipCycleTileMediumW.png</BackgroundImageURI>
           <Count>0</Count>
           <Title>WAC2014</Title>
         </TemplateType5>
